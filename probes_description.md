@@ -23,10 +23,10 @@
 
 -- the receiving end file will be a .lua script.
 
--- in the .probes file
--- it might be used as so:
+in the .probes file
+it might be used as so:
 
-´´´lua
+```lua
 local probe1 = probe()
 setmetatable(probe1,"keyboardprobe")
 
@@ -39,11 +39,11 @@ setmetatable(probe2,"folderprobe")
 probe2.listen("newfilecreation")
 
 probe2.pushdata()
-´´´
+```
 
 -- in the .lua script
 -- it might be used as so:
-´´´lua
+```lua
 
 local probes = require "luaprobeslib"
 local lods = require "satlitelib"
@@ -51,10 +51,10 @@ local lods = require "satlitelib"
 local t1 = probes.activate("./probes/probe1.probes")
 
 local t2 = probes.activate("./probes/probe2.probes")
-´´´
+```
 -- in a .c or .cpp file
 -- it might be used as so:
-´´´c
+```c
 #include <luaprobeslib.h>
 #include <satlitelib.h>
-´´´
+```

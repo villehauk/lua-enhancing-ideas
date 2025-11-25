@@ -1,5 +1,6 @@
 .probes
 .probes = primal object emitting stream
+
 `description`a .probes file will be the input, listener or anything related
 it will be native to lua, but other languages might use it as well.
 
@@ -17,7 +18,7 @@ also, it might be used in parallel programming to solve clashing problems
 and to make multiple things at once
 
 
-how they work: in a .probes file, you create the probe. The more probes a .probes file have, the
+`how they work`: in a .probes file, you create the probe. The more probes a .probes file have, the
 slower it will act because it has a fixed number of calls per second.
 Each time it gather information, it will send files in .satlite format to the probe pushdata
 

@@ -33,6 +33,6 @@ local secondmetatable = {
   [2] = instanciate(firstmetatable),
   [3] = 3
 }
-```
 
 print(secondmetatable[1][1])
+```

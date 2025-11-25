@@ -1,7 +1,7 @@
 .probes
 .probes = primal object emitting stream
 
-`description`a .probes file will be the input, listener or anything related
+`description`: a .probes file will be the input, listener or anything related
 it will be native to lua, but other languages might use it as well.
 
 `objective`: the .probe files will be actively listening to impulses in ports, folders, peripherals,
